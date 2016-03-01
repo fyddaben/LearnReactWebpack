@@ -7,6 +7,7 @@ var LikeButton = require('./components/LikeButton.jsx');
 var Input = require('./components/Form.jsx');
 var LifeHello = require('./components/lifeCycle.jsx');
 var UserGist = require('./components/ajax.jsx');
+var indsc = require('../src/app.scss');
 //ReactDOM.render(
 //  <Hello name='daben'/>,
 //  document.getElementById('app')
@@ -27,8 +28,11 @@ var UserGist = require('./components/ajax.jsx');
 //  <LifeHello name='daben'/>,
 //  document.getElementById('app')
 //)
-
 ReactDOM.render(
-  <UserGist source='https://api.github.com/users/octocat/gists'/>,
+  <Input />,
   document.getElementById('app')
 )
+//ReactDOM.render(
+//  <UserGist source='http://www.mis.com'/>,
+//  document.getElementById('app')
+//)

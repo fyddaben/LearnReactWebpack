@@ -22,7 +22,7 @@ var UserGist = React.createClass({
   render: function() {
     return (
       <div>
-        {this.state.username}'s last gist is
+        {this.state.username}'1e31s las0000t gistss is
         <a href={this.state.lastGistUrl}> here</a>
       </div>
     )

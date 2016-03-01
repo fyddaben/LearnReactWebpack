@@ -1,3 +1,4 @@
+require('../../src/app.scss');
 var React = require('react');
 
 var Input = React.createClass({
@@ -16,7 +17,7 @@ var Input = React.createClass({
         return (
             <div>
                 <input type="text" value={value} onChange={this.handleChange}/>
-                <p>{value}</p>
+                <p>{value} dabensdfs</p>
             </div>
         )
     }
